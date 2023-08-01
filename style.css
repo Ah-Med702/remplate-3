@@ -582,7 +582,7 @@ section>span::after {
     height: 100%;
     background-color: var(--white);
     position: absolute;
-    bottom: 8px;
+    bottom: 2px;
     right: 0;
     clip-path: polygon(100% 50%, 0% 100%, 100% 100%);
     transition: 0.3s;
@@ -647,7 +647,7 @@ section>span::after {
 .rectangle .bottom span::before {
     content: '';
     position: absolute;
-    top: -5px;
+    top: 0px;
     left: 0;
     border-radius: 5px;
     z-index: -1;
@@ -710,13 +710,13 @@ section>span::after {
 @keyframes fill-more {
     0% {
         width: 0;
-        height: 75px;
+        height: 100%;
         z-index: -1;
     }
 
     100% {
         width: 100%;
-        height: 75px;
+        height: 100%;
         z-index: -1;
     }
 }
